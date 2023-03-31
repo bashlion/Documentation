@@ -227,6 +227,7 @@ The components or pieces used are:
    Navigate in certs Directory: 
 
    `cd certs`
+   
    Create the key : 
 
    `openssl genrsa -out ca.key 4096`
@@ -254,23 +255,23 @@ The components or pieces used are:
    `vim v3.ext`
 
    > authorityKeyIdentifier=keyid,issuer
-   > 
+   
    > basicConstraints=CA:FALSE
-   > 
+   
    > keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
-   > 
+   
    > extendedKeyUsage = serverAuth
-   > 
+   
    > subjectAltName = @alt_names
-   > 
+   
    > [alt_names]
-   > 
+   
    > DNS.1=platform.demolabs.com
-   > 
+   
    > DNS.2=demolabs
-   > 
+   
    > DNS.3=harbor
-   > 
+   
    > DNS.4=notary.platform.demolabs.com
 
    ![image-20230331005800107](./images/image-20230331005800107.png) 
