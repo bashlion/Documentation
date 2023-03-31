@@ -186,6 +186,7 @@ The components or pieces used are:
 2. Check Ingress Class and SVC pods related to ingress
 
    `kubectl get ingressclass`
+   
    `kubectl get svc -A`
 
    ![image-20230330222332790](./images/image-20230330222332790.png) 
