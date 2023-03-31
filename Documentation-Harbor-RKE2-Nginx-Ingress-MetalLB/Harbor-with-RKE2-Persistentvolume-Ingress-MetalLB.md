@@ -71,6 +71,7 @@ The components or pieces used are:
 6. Install Kubectl to interact with cluster
 
    > curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+   
    > sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 
    ![image-20230330191739333](./images/image-20230330191739333.png) 
