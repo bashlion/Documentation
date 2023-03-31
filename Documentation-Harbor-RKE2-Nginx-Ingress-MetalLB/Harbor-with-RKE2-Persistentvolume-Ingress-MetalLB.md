@@ -28,9 +28,13 @@ The components or pieces used are:
 2. Create the directory and config file [On Master Node]
 
    > sudo mkdir -p /etc/rancher/rke2
+   > 
    > sudo bash -c 'echo "write-kubeconfig-mode: \"0644\"" >> /etc/rancher/rke2/config.yaml'
+   > 
    > sudo bash -c 'echo "disable: ["rke2-ingress-nginx"]" >> /etc/rancher/rke2/config.yaml'
+   > 
    > sudo bash -c 'echo "token: token1" >> /etc/rancher/rke2/config.yaml'
+   > 
    > sudo bash -c 'echo "tls-san: ["192.168.211.193", "192.168.211.194"] " >> /etc/rancher/rke2/config.yaml'
 
    ![image-20230330185036876](./images/image-20230330185036876.png) 
@@ -38,10 +42,15 @@ The components or pieces used are:
 3.  Create the directory and config file [On Secondary Node/s]
 
       > sudo mkdir -p /etc/rancher/rke2
+      > 
       > sudo bash -c 'echo "server: https://192.168.211.193:9345" >> /etc/rancher/rke2/config.yaml'
+      > 
       > sudo bash -c 'echo "token: token1" >> /etc/rancher/rke2/config.yaml'
+      > 
       > sudo bash -c 'echo "tls-san: ["192.168.211.193", "192.168.211.194"] " >> /etc/rancher/rke2/config.yaml'
+      > 
       > sudo bash -c 'echo "write-kubeconfig-mode: \"0644\"" >> /etc/rancher/rke2/config.yaml'
+      > 
       > sudo bash -c 'echo "disable: ["rke2-ingress-nginx"]" >> /etc/rancher/rke2/config.yaml'
 
       ![image-20230330191046169](./images/image-20230330191046169.png)
@@ -243,14 +252,23 @@ The components or pieces used are:
    `vim v3.ext`
 
    > authorityKeyIdentifier=keyid,issuer
+   > 
    > basicConstraints=CA:FALSE
+   > 
    > keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+   > 
    > extendedKeyUsage = serverAuth
+   > 
    > subjectAltName = @alt_names
+   > 
    > [alt_names]
+   > 
    > DNS.1=platform.demolabs.com
+   > 
    > DNS.2=demolabs
+   > 
    > DNS.3=harbor
+   > 
    > DNS.4=notary.platform.demolabs.com
 
    ![image-20230331005800107](./images/image-20230331005800107.png) 
