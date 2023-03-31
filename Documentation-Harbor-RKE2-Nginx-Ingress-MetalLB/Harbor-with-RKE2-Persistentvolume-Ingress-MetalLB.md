@@ -286,6 +286,7 @@ The components or pieces used are:
    `kubectl create ns harbor`
 
 10. Create secret in harbor namespace with above generated certificates
+11. 
     `kubectl create secret tls harbor-cert --key platform.demolabs.com.key --cert platform.demolabs.com.crt -n harbor`
 
     ![image-20230330233754400](./images/image-20230330233754400.png) 
@@ -293,6 +294,7 @@ The components or pieces used are:
 11. Create the Persistent volumes
 
     `cd ../harbor`
+    
     `vim pv.yaml`
 
     ```yaml
@@ -559,6 +561,7 @@ The components or pieces used are:
 13. Apply pv and pvc yaml created
 
     `kubectl apply -f pv.yaml`
+    
     `kubectl apply -f pvc.yaml`
 
     ![image-20230330234751571](/images/image-20230330234751571.png) 
@@ -674,22 +677,26 @@ The components or pieces used are:
     > 	![image-20230330235900197](./images/image-20230330235900197.png) 
 
 15. Deploy harbor with the values file
-    Make sure you are in the directory where the values.yaml resides|
+    Make sure you are in the directory where the values.yaml resides
+    
     `helm install harbor . -n harbor`
 
     ![image-20230330235936118](./images/image-20230330235936118.png) 
 
 16. Check and wait for pods to come in running state
+
     `kubectl get pods -n harbor -o wide`
 
     ![image-20230331002225979](./images/image-20230331002225979.png) 
 
 17. Check for service
+
     `kubectl get svc -n harbor`
 
     ![image-20230331000355401](./images/image-20230331000355401.png) 
 
 18. Check for ingress
+
     `kubectl get ingress -n harbor`
 
     ![image-20230331000411590](./images/image-20230331000411590.png) 
