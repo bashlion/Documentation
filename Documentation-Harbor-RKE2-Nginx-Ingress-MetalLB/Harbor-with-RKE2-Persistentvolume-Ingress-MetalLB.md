@@ -19,6 +19,7 @@ The components or pieces used are:
 ## Step 1: Setup RKE2 without the default ingress
 
 1. Download and execute rke binary: [On Both Nodes]
+
    `sudo bash -c 'curl -sfL https://get.rke2.io | INSTALL_RKE2_CHANNEL="v1.24.9+rke2r2" sh -'`
 
    ![image-20230330184535258](./images/image-20230330184535258.png) 
