@@ -2,9 +2,9 @@
 
 #### Pre-Requisites:
 
-Private Registry Setup Successfully
+Private Registry Setup Successfully - Click [here](./Document-1-Setup-Private-Registry.md) to setup
 
-Private Registry Populated with RKE2 Images
+Private Registry Populated with RKE2 Images - Click [here](./Document-3-Provision-Airgap-RKE2-Rancher-Downstrstream-Cluster-using-Private-Registry.md) to setup
 
 #### Steps:
 
