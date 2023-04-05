@@ -169,25 +169,27 @@ The components or pieces used are:
    vim ipaddresspool.yaml
    ```
 
-   > ```yaml
-   > apiVersion: metallb.io/v1beta1
-   > kind: IPAddressPool
-   > metadata:
-   >   name: add-pool
-   >   namespace: metallb-system
-   > spec:
-   >   addresses: ["192.168.211.201-192.168.211.220"]
-   > ```
+    ```yaml
+    apiVersion: metallb.io/v1beta1
+    kind: IPAddressPool
+    metadata:
+      name: add-pool
+      namespace: metallb-system
+    spec:
+      addresses: ["192.168.211.201-192.168.211.220"]
+    ```
 
-   `vim l2adv.yaml`
-
-   > ```yaml
-   > apiVersion: metallb.io/v1beta1
-   > kind: L2Advertisement
-   > metadata:
-   >   name: l2adv
-   >   namespace: metallb-system
-   > ```
+   ```bash
+   vim l2adv.yaml`
+   ```
+   
+    ```yaml
+    apiVersion: metallb.io/v1beta1
+    kind: L2Advertisement
+    metadata:
+      name: l2adv
+      namespace: metallb-system
+    ```
 
 5. Apply the ip address and l2adv yamls just created
 
