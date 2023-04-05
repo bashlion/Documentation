@@ -152,7 +152,7 @@ The components or pieces used are:
 2. Add helm repo for metallb
 
    ```bash
-   helm repo add metallb https://metallb.github.io/metallb
+   helm repo add metallb metallb/metallb https://metallb.github.io/metallb
    ```
 
 3. Install MetalLB 
