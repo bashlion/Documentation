@@ -1,7 +1,7 @@
 # Documentation
 This places contains Documentations for various How-Tos as described below.
 
-1. [Document: How to use Elemental with Rancher and VMware] (./Documentation-Elemental-Vmware-Prod-TPU-Emulate)
+1. [Document: How to use Elemental with Rancher and VMware](./Documentation-Elemental-Vmware-Prod-TPU-Emulate)
 2. Document: How to use Elemental with Rancher and VMware - Staging
 3. Document: How to Deploy Harbor with RKE2 Nginx Ingress and MetalLB
 
