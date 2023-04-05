@@ -212,3 +212,6 @@ helm fetch rancher-prime/rancher --version=v2.7.1
 #### Conclusion
 
 In the above document we configured Private Registry for RKE2 and Rancher Images.
+
+#### Next
+[Provision a RKE2 Cluster, Rancher Server and spin up an Downstream Cluster](./Document-3-Provision-Airgap-RKE2-Rancher-Downstrstream-Cluster-using-Private-Registry.md)
