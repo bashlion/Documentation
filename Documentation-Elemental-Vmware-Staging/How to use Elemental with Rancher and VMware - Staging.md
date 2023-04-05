@@ -6,7 +6,6 @@
 
 In this document we will see how we can enable elemental support in Rancher and then build iso and test it on a vm in VMware mimicking it for an edge device.
 
-[TOC]
 
 ## Prerequisites
 
@@ -21,9 +20,7 @@ In this document we will see how we can enable elemental support in Rancher and 
 
  Click on extensions under the configuration menu and enable it by hitting enable.
 
-
-
-![image-20230218014726271](./images/image-20230218014726271.png)<img src="./images/image-20230218232720333.png" alt="image-20230218232720333" style="zoom: 50%;"/>                 
+<img src="./images/image-20230218014726271.png" alt="image-20230218014726271.png" width="300" height="200" />   <img src="./images/image-20230218232720333.png" alt="image-20230218232720333" width="300" height="250" />                
 
 Once you click on enable a dialogue box will pop up asking for confirmation and it will also notify you that the rancher extensions repository will be enabled, make sure it is checked and then confirm.
 
