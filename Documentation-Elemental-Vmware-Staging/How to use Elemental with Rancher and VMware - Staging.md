@@ -64,8 +64,7 @@ At this point we are ready to proceed with the next step, that is to prepare the
 
 In the OS Management dashboard hit the create registration endpoint button
 
-<img src="./images/image-20230219000334060.png" alt="image-20230219000334060" style="zoom:50%;" />   
-
+<img src="./images/image-20230219000334060.png" alt="image-20230219000334060" style="zoom:50%;" />
 Now here either you can enter each detail in its respective places or you can edit this as yaml and create the endpoint in one go. Here we will edit this as yaml.
 
 ```yaml
