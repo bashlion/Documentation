@@ -2,7 +2,7 @@
 
 #### Pre-Requisites:
 
-Private Registry Setup Successfully
+Private Registry Setup Successfully - Click [here](./Document-1-Setup-Private-Registry.md) to setup
 
 #### Steps:
 
