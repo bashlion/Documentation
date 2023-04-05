@@ -180,7 +180,7 @@ The components or pieces used are:
     ```
 
    ```bash
-   vim l2adv.yaml`
+   vim l2adv.yaml
    ```
    
     ```yaml
