@@ -93,3 +93,6 @@ docker login -u registry-user https://privreg.demolabs.com:443
 #### Conclusion
 
 In the above document we configured private registry
+
+#### Next
+[Populate the Private Registry with RKE2 and Rancher Images](./Document-2-Populate-Private-Registry-RKE2&Rancher-Images.md)
