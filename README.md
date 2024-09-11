@@ -8,6 +8,6 @@ This places contains Documentations for various How-Tos as described below.
 5. [Document: How to setup Private-Registry](./Document-Setup-RKE2-With-Rancher-in-HA-AIRGAP/Document-1-Setup-Private-Registry.md)
 6. [Document: How to Populate Private Registry with RKE2 & Rancher Images](./Document-Setup-RKE2-With-Rancher-in-HA-AIRGAP/Document-2-Populate-Private-Registry-RKE2&Rancher-Images.md)
 7. [Document: How to setup RKE2, Rancher & Downstream Cluster using Private Registry in AIRGAP](./Document-Setup-RKE2-With-Rancher-in-HA-AIRGAP/Document-3-Provision-Airgap-RKE2-Rancher-Downstrstream-Cluster-using-Private-Registry.md)
-8. [Document: How To Setup 2 Node HANADB With Replication and HA](./Document-How-To-Setup-2-Node-HANADB-With-Replication-and-HA/SETUP-2-NODE-HANA-CLUSTER-WITH-REPLICATION-AND-HA.md)
+8. [Document: How To Setup 2 Node HANADB With Replication and HA](./Document-How-To-Setup-2-Node-HANADB-With-Replication-and-HA/Setup-2-Node-HANADB-With-Replication-and-HA.md)
 
 Disclaimer: These Documents are created for educational and RnD purpose only and may result in non functioning systems and there may be scenarios where user might need to reinstall everything. In such cases the Document or the creators or contributors of these document should not be held responsible.
