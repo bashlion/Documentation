@@ -1,6 +1,4 @@
-## **SETUP 2 NODE HANA CLUSTER WITH REPLICATION AND HA**
-
-[TOC]
+## **SETUP-2-NODE-HANA-CLUSTER-WITH-REPLICATION-AND-HA**
 
 ### **Assumptions and Definitions**
 
