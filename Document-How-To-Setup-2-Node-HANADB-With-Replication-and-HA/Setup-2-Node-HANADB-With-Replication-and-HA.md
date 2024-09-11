@@ -47,8 +47,6 @@ unzip 51057281.ZIP sap_inst/
 
  The zip file is downloaded from SAP Download Center.
 
-Internal team can download from here.
-
 #### Start Installation
 
 ##### Node 1
