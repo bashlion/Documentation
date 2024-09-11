@@ -4,9 +4,9 @@
 
 ### **Assumptions and Definitions**
 
-![image-20240911222634164](Images\image-20240911222634164.png)
+![image-20240911222634164](./Images/image-20240911222634164.png)
 
-![image-20240911222739786](./images/image-20240911222739786.png)
+![image-20240911222739786](./Images/image-20240911222739786.png)
 
 ### **System Setup**
 
@@ -25,9 +25,9 @@
   - iSCSI partition for SBD:
     SDC is from iSCSI for HA
 
-![image-20240911223114379](./images/image-20240911223114379.png) 
+![image-20240911223114379](./Images/image-20240911223114379.png) 
 
-  ![image-20240911223125253](./images/image-20240911223125253.png)
+  ![image-20240911223125253](./Images/image-20240911223125253.png)
 
 
 
@@ -37,7 +37,7 @@
 
 The installation files are kept on the /data as below:
 
-![image-20240911223246928](./images/image-20240911223246928.png) 
+![image-20240911223246928](./Images/image-20240911223246928.png) 
 
 Extract the file 51057281.ZIP using below command
 
@@ -62,16 +62,16 @@ cd sap_inst/DATA_UNITS/HDB_SERVER_LINUX_X86_64
 ./hdblcm
 ```
 
-![image-20240911224237600](./images/image-20240911224237600.png) 
+![image-20240911224237600](./Images/image-20240911224237600.png) 
 
 - Select Option 1 to start install
 
-![image-20240911224359144](./images/image-20240911224359144.png) 
+![image-20240911224359144](./Images/image-20240911224359144.png) 
 
 - Select 2 for components.
 - Keep defaults where ever mentioned.
 
-![image-20240911224436999](./images/image-20240911224436999.png) 
+![image-20240911224436999](./Images/image-20240911224436999.png) 
 
 - For System Usage Select Production. Option 1.
 -  It will not affect the resource consumption, so you can select any.
@@ -80,12 +80,12 @@ cd sap_inst/DATA_UNITS/HDB_SERVER_LINUX_X86_64
 -  For DB Password it should have 1 upper case.
 -  Post the reboot option it will give you a summary as below
 
-![image-20240911224605511](./images/image-20240911224605511.png) 
+![image-20240911224605511](./Images/image-20240911224605511.png) 
 
 If all is good select yes.
  Once finished you should get the below output:
 
-![image-20240911224622593](./images/image-20240911224622593.png) 
+![image-20240911224622593](./Images/image-20240911224622593.png) 
 
 ##### Node 2
 
