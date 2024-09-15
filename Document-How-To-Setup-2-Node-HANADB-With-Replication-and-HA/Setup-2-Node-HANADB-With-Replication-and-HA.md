@@ -1,11 +1,5 @@
 ## **SETUP 2 NODE HANA CLUSTER WITH REPLICATION AND HA**
 
-### **Assumptions and Definitions**
-
-![image-20240911222634164](./Images/image-20240911222634164.png)
-
-![image-20240911222739786](./Images/image-20240911222739786.png)
-
 ### **System Setup**
 
 #### Pre-Requisites
